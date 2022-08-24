@@ -1,0 +1,87 @@
+.dayContainer {
+    display: flex;
+    background-color: skyblue;
+    height: 35px;
+    margin: 10px 200px;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px lime;
+}
+
+.daySquare {
+    display: inline-flex;
+    height: 20px;
+    width: 120px;
+    background-color: white;
+    margin: 2px;
+    border: solid 3px black;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.container {
+    display: flex;
+    background-color: skyblue;
+    height: 100px;
+    margin: 5px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    display: inline-flex;
+    height: 80px;
+    width: 120px;
+    background-color: white;
+    margin: 2px;
+    border: solid 3px black;
+}
+
+body {
+    background-color: gray;
+}
+
+#one {
+    border: solid 4px red;
+}
+
+#two {
+    border: solid 4px orange; 
+}
+
+#three {
+    border: solid 4px yellow;  
+}
+
+#four {
+    border: solid 4px green;  
+}
+
+#five {
+    border: solid 4px blue;  
+}
+
+#six {
+    border: solid 4px purple;  
+}
+
+ .win {
+     background-color: rgb(146, 216, 143);
+ }
+
+ .loss {
+    background-color: rgb(216, 143, 143);
+ }
+
+ h3 {
+     text-align: center;
+     letter-spacing: 2px;
+     font-size: 18px;
+     background-color: aliceblue;
+     padding: 5px;
+     justify-content: center;
+     margin: 0px 200px;
+ }
+
